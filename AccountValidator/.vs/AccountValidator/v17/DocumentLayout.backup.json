@@ -1,0 +1,352 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\work\\AccountValidator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\uploadhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|c:\\work\\accountvalidator\\controllers\\accountvalidatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|solutionrelative:controllers\\accountvalidatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|c:\\work\\accountvalidator\\services\\customeraccountuploadhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|solutionrelative:services\\customeraccountuploadhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\accountvalidatorcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|c:\\work\\accountvalidator\\services\\customeraccounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|solutionrelative:services\\customeraccounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|c:\\work\\accountvalidator\\services\\interfaces\\icustomeraccounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|solutionrelative:services\\interfaces\\icustomeraccounthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|c:\\work\\accountvalidator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\accountnumbervalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\customeraccounthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\validationtests\\startswithspecifiedcharactertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|c:\\work\\accountvalidator\\services\\validations\\accountnumbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|solutionrelative:services\\validations\\accountnumbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\validationtests\\startsuppercasetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\validationtests\\isspecifiedlengthtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\validationtests\\isnumericaltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\validationtests\\isalphabetictests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\validationtests\\endswithspecifiedcharactertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00B347F7-FA26-41E6-81FE-D82A0B0C892B}|..\\AccountValidatorTests\\AccountValidatorTests.csproj|c:\\work\\accountvalidatortests\\accountnamevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|c:\\work\\accountvalidator\\services\\validations\\accountnamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|solutionrelative:services\\validations\\accountnamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|c:\\work\\accountvalidator\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|c:\\work\\accountvalidator\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BCB579-6598-43E2-8CA8-DA3A01A834F8}|AccountValidator.csproj|solutionrelative:models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerAccountHandler.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidator\\Services\\CustomerAccountHandler.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerAccountHandler.cs",
+              "ToolTip": "C:\\work\\AccountValidator\\Services\\CustomerAccountHandler.cs",
+              "RelativeToolTip": "Services\\CustomerAccountHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Services",
+              "WhenOpened": "2024-11-28T14:18:31.488Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidator\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\work\\AccountValidator\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwBkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:37:42.131Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UploadHandlerTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\UploadHandlerTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\UploadHandlerTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\UploadHandlerTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\UploadHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:27:12.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountValidatorControllerTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\AccountValidatorControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\AccountValidatorControllerTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\AccountValidatorControllerTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\AccountValidatorControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:22:07.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerAccountUploadHandler.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidator\\Services\\CustomerAccountUploadHandler.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerAccountUploadHandler.cs",
+              "ToolTip": "C:\\work\\AccountValidator\\Services\\CustomerAccountUploadHandler.cs",
+              "RelativeToolTip": "Services\\CustomerAccountUploadHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:46:51.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountValidatorController.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidator\\Controllers\\AccountValidatorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountValidatorController.cs",
+              "ToolTip": "C:\\work\\AccountValidator\\Controllers\\AccountValidatorController.cs",
+              "RelativeToolTip": "Controllers\\AccountValidatorController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAD4vxUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:44:28.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerAccountHandlerTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\CustomerAccountHandlerTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\CustomerAccountHandlerTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\CustomerAccountHandlerTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\CustomerAccountHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:41:34.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IsAlphabeticTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\ValidationTests\\IsAlphabeticTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\ValidationTests\\IsAlphabeticTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\ValidationTests\\IsAlphabeticTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\ValidationTests\\IsAlphabeticTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:36:56.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EndsWithSpecifiedCharacterTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\ValidationTests\\EndsWithSpecifiedCharacterTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\ValidationTests\\EndsWithSpecifiedCharacterTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\ValidationTests\\EndsWithSpecifiedCharacterTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\ValidationTests\\EndsWithSpecifiedCharacterTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:36:50.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountNumberValidatorTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\AccountNumberValidatorTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\AccountNumberValidatorTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\AccountNumberValidatorTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\AccountNumberValidatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:36:15.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StartsWithSpecifiedCharacterTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\ValidationTests\\StartsWithSpecifiedCharacterTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\ValidationTests\\StartsWithSpecifiedCharacterTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\ValidationTests\\StartsWithSpecifiedCharacterTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\ValidationTests\\StartsWithSpecifiedCharacterTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:36:01.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountNameValidatorTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\AccountNameValidatorTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\AccountNameValidatorTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\AccountNameValidatorTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\AccountNameValidatorTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:34:55.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StartsUpperCaseTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\ValidationTests\\StartsUpperCaseTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\ValidationTests\\StartsUpperCaseTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\ValidationTests\\StartsUpperCaseTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\ValidationTests\\StartsUpperCaseTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:34:50.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IsSpecifiedLengthTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\ValidationTests\\IsSpecifiedLengthTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\ValidationTests\\IsSpecifiedLengthTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\ValidationTests\\IsSpecifiedLengthTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\ValidationTests\\IsSpecifiedLengthTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:30:12.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IsNumericalTests.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidatorTests\\ValidationTests\\IsNumericalTests.cs",
+              "RelativeDocumentMoniker": "..\\AccountValidatorTests\\ValidationTests\\IsNumericalTests.cs",
+              "ToolTip": "C:\\work\\AccountValidatorTests\\ValidationTests\\IsNumericalTests.cs",
+              "RelativeToolTip": "..\\AccountValidatorTests\\ValidationTests\\IsNumericalTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:27:00.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICustomerAccountHandler.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidator\\Services\\Interfaces\\ICustomerAccountHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICustomerAccountHandler.cs",
+              "ToolTip": "C:\\work\\AccountValidator\\Services\\Interfaces\\ICustomerAccountHandler.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICustomerAccountHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T12:36:15.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidator\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "Models\\Response.cs",
+              "ToolTip": "C:\\work\\AccountValidator\\Models\\Response.cs",
+              "RelativeToolTip": "Models\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T12:02:20.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidator\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "C:\\work\\AccountValidator\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:14:05.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountNameValidator.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidator\\Services\\validations\\AccountNameValidator.cs",
+              "RelativeDocumentMoniker": "Services\\validations\\AccountNameValidator.cs",
+              "ToolTip": "C:\\work\\AccountValidator\\Services\\validations\\AccountNameValidator.cs",
+              "RelativeToolTip": "Services\\validations\\AccountNameValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:12:41.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountNumberValidator.cs",
+              "DocumentMoniker": "C:\\work\\AccountValidator\\Services\\validations\\AccountNumberValidator.cs",
+              "RelativeDocumentMoniker": "Services\\validations\\AccountNumberValidator.cs",
+              "ToolTip": "C:\\work\\AccountValidator\\Services\\validations\\AccountNumberValidator.cs",
+              "RelativeToolTip": "Services\\validations\\AccountNumberValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:12:40.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

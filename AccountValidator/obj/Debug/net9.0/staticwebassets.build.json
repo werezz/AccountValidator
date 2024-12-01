@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "qY8fsewgIofbeSfJ15eX3NljgwxFvGQRm+W7/BantYA=",
+  "Source": "AccountValidator",
+  "BasePath": "_content/AccountValidator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
