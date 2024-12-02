@@ -10,6 +10,15 @@
         "tags": [
           "AccountValidator"
         ],
+        "parameters": [
+          {
+            "name": "Version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
             "multipart/form-data": {

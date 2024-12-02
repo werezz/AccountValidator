@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AccountValidator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64a77e505e70c77f0d375354f400e85304ea4bf3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+746ddbbfcaf0723193f96f6d59574f8dd16d4636")]
 [assembly: System.Reflection.AssemblyProductAttribute("AccountValidator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AccountValidator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

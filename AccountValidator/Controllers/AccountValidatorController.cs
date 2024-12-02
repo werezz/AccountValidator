@@ -1,11 +1,14 @@
 using AccountValidator.Services.Interfaces;
 using AccountValidator.Utility;
+using Asp.Versioning;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccountValidator.Controllers
 {
     [ApiController]
+    [ApiVersion(1)]
     [Route("[controller]")]
+    [ProducesResponseType(200)]
     public class AccountValidatorController : ControllerBase
     {
         private readonly ICustomerAccountHandler _customerAccountHandler;
@@ -17,6 +20,7 @@ namespace AccountValidator.Controllers
             _customerAccountUploadHandler = customerAccountUploadHandler;
         }
 
+        [MapToApiVersion(1)]
         [HttpPost]
         public IActionResult ValidateFile(IFormFile file)
         {

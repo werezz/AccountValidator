@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OHkL3kyOC1M=",
+  "dgSpecHash": "B8ZUZhZgwcc=",
   "success": true,
-  "projectFilePath": "C:\\work\\AccountValidatorND\\AccountValidator\\AccountValidator.csproj",
+  "projectFilePath": "C:\\work\\AccountValidator\\AccountValidator\\AccountValidator.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vartotojas\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "C:\\Users\\Vartotojas\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "C:\\Users\\Vartotojas\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "C:\\Users\\Vartotojas\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\8.1.0\\asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
     "C:\\Users\\Vartotojas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
     "C:\\Users\\Vartotojas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Vartotojas\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",

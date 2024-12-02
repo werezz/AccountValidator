@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\AccountValidatorND\\AccountValidatorTests\\AccountValidatorTests.csproj": {}
+    "C:\\work\\AccountValidator\\AccountValidatorTests\\AccountValidatorTests.csproj": {}
   },
   "projects": {
-    "C:\\work\\AccountValidatorND\\AccountValidatorTests\\AccountValidatorTests.csproj": {
+    "C:\\work\\AccountValidator\\AccountValidatorTests\\AccountValidatorTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\AccountValidatorND\\AccountValidatorTests\\AccountValidatorTests.csproj",
+        "projectUniqueName": "C:\\work\\AccountValidator\\AccountValidatorTests\\AccountValidatorTests.csproj",
         "projectName": "AccountValidatorTests",
-        "projectPath": "C:\\work\\AccountValidatorND\\AccountValidatorTests\\AccountValidatorTests.csproj",
+        "projectPath": "C:\\work\\AccountValidator\\AccountValidatorTests\\AccountValidatorTests.csproj",
         "packagesPath": "C:\\Users\\Vartotojas\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\AccountValidatorND\\AccountValidatorTests\\obj\\",
+        "outputPath": "C:\\work\\AccountValidator\\AccountValidatorTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\work\\AccountValidatorND\\AccountValidator\\AccountValidator.csproj": {
-                "projectPath": "C:\\work\\AccountValidatorND\\AccountValidator\\AccountValidator.csproj"
+              "C:\\work\\AccountValidator\\AccountValidator\\AccountValidator.csproj": {
+                "projectPath": "C:\\work\\AccountValidator\\AccountValidator\\AccountValidator.csproj"
               }
             }
           }
@@ -105,14 +105,14 @@
         }
       }
     },
-    "C:\\work\\AccountValidatorND\\AccountValidator\\AccountValidator.csproj": {
+    "C:\\work\\AccountValidator\\AccountValidator\\AccountValidator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\AccountValidatorND\\AccountValidator\\AccountValidator.csproj",
+        "projectUniqueName": "C:\\work\\AccountValidator\\AccountValidator\\AccountValidator.csproj",
         "projectName": "AccountValidator",
-        "projectPath": "C:\\work\\AccountValidatorND\\AccountValidator\\AccountValidator.csproj",
+        "projectPath": "C:\\work\\AccountValidator\\AccountValidator\\AccountValidator.csproj",
         "packagesPath": "C:\\Users\\Vartotojas\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\AccountValidatorND\\AccountValidator\\obj\\",
+        "outputPath": "C:\\work\\AccountValidator\\AccountValidator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -151,6 +151,18 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Asp.Versioning.Http": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"

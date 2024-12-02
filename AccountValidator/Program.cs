@@ -1,6 +1,7 @@
 using AccountValidator.Services;
 using AccountValidator.Services.Interfaces;
 using AccountValidator.Services.validations;
+using Asp.Versioning;
 using Microsoft.OpenApi.Models;
 using Serilog;
 
@@ -15,6 +16,22 @@ Log.Logger = new LoggerConfiguration()
 builder.Logging.ClearProviders();
 builder.Logging.AddSerilog();
 builder.Host.UseSerilog();
+
+builder.Services.AddApiVersioning(options =>
+{
+    options.DefaultApiVersion = new ApiVersion(1);
+    options.ReportApiVersions = true;
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.ApiVersionReader = ApiVersionReader.Combine(
+        new UrlSegmentApiVersionReader(),
+        new HeaderApiVersionReader("Version"));
+})
+.AddMvc()
+.AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'V";
+    options.SubstituteApiVersionInUrl = true;
+});
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
