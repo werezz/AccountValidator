@@ -1,5 +1,4 @@
-﻿
-using AccountValidator.Services.validations;
+﻿using AccountValidator.Services.Validations.BasicValidations;
 
 namespace AccountValidatorTests.ValidationTests
 {

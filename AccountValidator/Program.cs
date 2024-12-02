@@ -1,6 +1,7 @@
 using AccountValidator.Services;
 using AccountValidator.Services.Interfaces;
 using AccountValidator.Services.validations;
+using AccountValidator.Services.Validations.BasicValidations;
 using Asp.Versioning;
 using Microsoft.OpenApi.Models;
 using Serilog;

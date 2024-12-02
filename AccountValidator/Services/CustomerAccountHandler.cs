@@ -32,7 +32,7 @@ namespace AccountValidator.Services
                 if (!_accountNameValidator.ValidateAccountName(request.Accounts[i].Name)) errorBuilder.Append("account name, ");
                 if (!_accountNumberValidator.ValidateAccountNumber(request.Accounts[i].Number)) errorBuilder.Append("account number, ");
 
-                result.InvalidLines.Add(InvalidLineMessageBuilder(errorBuilder,request.Accounts[i].Name, request.Accounts[i].Number, request.Accounts[i].LineNumber));
+                result.InvalidLines.Add(InvalidLineMessageBuilder(errorBuilder, request.Accounts[i], request.Accounts[i].LineNumber));
 
                 stopwatch.Stop();
                 _logger.LogInformation("line {LineNumber} validated in: {ElapsedTime}", request.Accounts[i].LineNumber, stopwatch.Elapsed);
@@ -47,20 +47,20 @@ namespace AccountValidator.Services
             return result;
         }
 
-        private static string InvalidLineMessageBuilder(StringBuilder message, string accountName, string accountNumber, int lineNumber)
+        private static string InvalidLineMessageBuilder(StringBuilder message, Account account, int lineNumber)
         {
             if (string.IsNullOrEmpty(message.ToString())) return "";
 
             var formattedMessage = FormatErrorMessage(message.ToString());
             message.Clear();
             message.Append(formattedMessage);
-            if (accountName == " " && accountNumber == " ")
+            if (account.Name == " " && account.Number == " ")
             {
                 message.Append($" -not valid for line {lineNumber} missing AccountNumber or AccountName");
             }
             else
             {
-                message.Append($" -not valid for line {lineNumber} '{accountName} {accountNumber}'");
+                message.Append($" -not valid for line {lineNumber} '{account.Name} {account.Number}'");
             }
             return message.ToString();
         }

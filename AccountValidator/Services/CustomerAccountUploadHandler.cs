@@ -6,6 +6,13 @@ namespace AccountValidator.Services
 {
     public class CustomerAccountUploadHandler: ICustomerAccountUploadHandler
     {
+        private readonly ILogger<CustomerAccountUploadHandler> _logger;
+
+        public CustomerAccountUploadHandler( ILogger<CustomerAccountUploadHandler> logger)
+        {
+            _logger = logger;
+        }
+
         public Request Upload(IFormFile file)
         {
             var accounts = new Request();
@@ -44,6 +51,7 @@ namespace AccountValidator.Services
                 }
                 catch (Exception ex)
                 {
+                    _logger.LogError("An error occurred while parsing the file {Exeption}", ex);
                     throw;
                 }
             }

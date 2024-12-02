@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AccountValidatorTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+746ddbbfcaf0723193f96f6d59574f8dd16d4636")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+953643490884d4d52042ea17f97912b9d53d8700")]
 [assembly: System.Reflection.AssemblyProductAttribute("AccountValidatorTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AccountValidatorTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

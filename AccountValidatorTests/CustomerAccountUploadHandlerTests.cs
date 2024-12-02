@@ -2,17 +2,21 @@
 using AccountValidator.Services;
 using AccountValidator.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using NSubstitute;
 
 namespace AccountValidatorTests
 {
-    internal class UploadHandlerTests
+    internal class CustomerAccountUploadHandlerTests
     {
 
-        private readonly ICustomerAccountUploadHandler _uploadHandler;
-        public UploadHandlerTests()
+        private readonly ICustomerAccountUploadHandler _customerAccountUploadHandler;
+        private readonly ILogger<CustomerAccountUploadHandler> _logger;
+
+        public CustomerAccountUploadHandlerTests()
         {
-            _uploadHandler = new CustomerAccountUploadHandler();
+            _logger = Substitute.For<ILogger<CustomerAccountUploadHandler>>();
+            _customerAccountUploadHandler = new CustomerAccountUploadHandler(_logger);
         }
 
         [Test]
@@ -22,7 +26,7 @@ namespace AccountValidatorTests
 
             mockFile.Length.Returns(0);
 
-            var result = _uploadHandler.CheckIfFileIsNullOrEmpty(mockFile);
+            var result = _customerAccountUploadHandler.CheckIfFileIsNullOrEmpty(mockFile);
 
             Assert.That(result, Is.EqualTo(true));
         }
@@ -34,7 +38,7 @@ namespace AccountValidatorTests
 
             mockFile.Length.Returns(1);
 
-            var result = _uploadHandler.CheckIfFileIsNullOrEmpty(mockFile);
+            var result = _customerAccountUploadHandler.CheckIfFileIsNullOrEmpty(mockFile);
 
             Assert.That(result, Is.EqualTo(false));
         }
@@ -46,7 +50,7 @@ namespace AccountValidatorTests
 
             mockFile.Length.Returns(1);
 
-            var result = _uploadHandler.Upload(mockFile);
+            var result = _customerAccountUploadHandler.Upload(mockFile);
 
             Assert.That(result, Is.InstanceOf<Request>());
         }

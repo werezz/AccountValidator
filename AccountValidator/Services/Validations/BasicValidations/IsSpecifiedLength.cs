@@ -1,4 +1,4 @@
-﻿namespace AccountValidator.Services.validations
+﻿namespace AccountValidator.Services.Validations.BasicValidations
 {
     public class IsSpecifiedLength
     {

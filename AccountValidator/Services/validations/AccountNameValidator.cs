@@ -1,5 +1,5 @@
 ﻿using AccountValidator.Services.Interfaces;
-using AccountValidator.Services.validations;
+using AccountValidator.Services.Validations.BasicValidations;
 
 namespace AccountValidator.Services
 {

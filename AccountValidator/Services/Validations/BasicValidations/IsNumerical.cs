@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace AccountValidator.Services.validations
+namespace AccountValidator.Services.Validations.BasicValidations
 {
     public class IsNumerical
     {

@@ -35,7 +35,7 @@ namespace AccountValidator.Controllers
 
             if (!response.FileValid) return Ok(response.ToValidationResultDTO());
 
-            return Ok(new { fileValid = response.FileValid });
+            return Ok(new { fileValid = true});
         }
     }
 }
